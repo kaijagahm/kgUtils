@@ -2,7 +2,7 @@
 % Please edit documentation in R/ownFunctions.R
 \name{locate.nas}
 \alias{locate.nas}
-\title{Find and tally NA's in a data frame.}
+\title{Locate NA's}
 \usage{
 locate.nas(df)
 }

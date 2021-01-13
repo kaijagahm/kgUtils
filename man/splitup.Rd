@@ -2,7 +2,7 @@
 % Please edit documentation in R/ownFunctions.R
 \name{splitup}
 \alias{splitup}
-\title{Split a data frame for cross-validation}
+\title{Split Up}
 \usage{
 splitup(df, k)
 }

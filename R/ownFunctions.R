@@ -1,6 +1,9 @@
-# This file contains self-written functions.
-#
-#' Find and tally NA's in a data frame.
+#' @importFrom magrittr %>%
+NULL
+#' @importFrom stringr str_replace
+
+#' @title Locate NA's
+#' @description Find and tally NA's in a data frame.
 #'
 #' @param df A data frame.
 #' @return A data frame with columns `colname` (column names from the original `df`) and `nas` (the number of NA's found in that column.)
@@ -18,7 +21,8 @@ locate.nas <- function(df){
   return(na.df)
 }
 
-#' Remove all spaces from strings
+#' @title No Space
+#' @description Remove all spaces from strings
 #'
 #' @param vec A vector. Will be coerced to character if it isn't already.
 #' @return A vector with no spaces.
@@ -34,7 +38,8 @@ nospace <- function(vec){
   return(vec)
 }
 
-#' Split a data frame for cross-validation
+#' @title Split Up
+#' @description Split a data frame for cross-validation
 #'
 #' @param df A data frame.
 #' @param k The number of groups/sets to split the data frame into.

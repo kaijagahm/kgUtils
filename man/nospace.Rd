@@ -2,7 +2,7 @@
 % Please edit documentation in R/ownFunctions.R
 \name{nospace}
 \alias{nospace}
-\title{Remove all spaces from strings}
+\title{No Space}
 \usage{
 nospace(vec)
 }
