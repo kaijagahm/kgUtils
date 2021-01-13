@@ -9,3 +9,7 @@ This package contains a few simple utility functions that I use fairly frequentl
 devtools::install_github("kaijagahm/kgUtils")
 library(kgUtils)
 ```
+
+### Contact
+Kaija Gahm
+kaija.gahm@aya.yale.edu
