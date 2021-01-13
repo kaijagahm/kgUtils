@@ -1,0 +1,15 @@
+Package: kgUtils
+Title: Personal utility functions
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Kaija",
+           family = "Gahm",
+           role = c("aut", "cre"),
+           email = "kaija.gahm@aya.yale.edu",
+           comment = c(ORCID = "0000-0002-4612-4426"))
+Description: This is a package I created to store useful self-written (or web-sourced) functions that I use over and over. 
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
